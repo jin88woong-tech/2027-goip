@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#2563eb">
+<title>2027 경남 고입 길잡이</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#172033;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;line-height:1.6}
+header{background:linear-gradient(135deg,#1d4ed8,#2563eb);color:white;padding:28px 18px 24px;position:sticky;top:0;z-index:10}
+.wrap{max-width:900px;margin:auto}.eyebrow{font-size:13px;opacity:.85}.title{font-size:28px;font-weight:800;margin:4px 0}.sub{font-size:14px;opacity:.9}
+nav{display:flex;gap:7px;overflow:auto;padding:10px 0;scrollbar-width:none}nav button{border:0;background:#fff;color:#334155;border-radius:999px;padding:9px 13px;white-space:nowrap;font-weight:700}nav button.active{background:#172033;color:#fff}
+main{padding:18px}.hero,.card{background:white;border-radius:18px;padding:20px;margin-bottom:14px;box-shadow:0 5px 18px #0000000b}
+.hero h2{margin:0 0 7px;font-size:22px}.hero p{margin:0;color:#526176}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}.tile{background:#eef4ff;border-radius:15px;padding:15px}.tile b{display:block;font-size:19px}.tile span{font-size:13px;color:#526176}
+h2{font-size:20px;margin:0 0 12px}h3{font-size:16px;margin:16px 0 7px}.tag{display:inline-block;background:#e8f0ff;color:#1d4ed8;border-radius:999px;padding:4px 9px;font-size:12px;font-weight:800;margin:2px}
+.timeline{border-left:3px solid #bfdbfe;margin:12px 0 5px;padding-left:16px}.event{margin:0 0 17px;position:relative}.event:before{content:"";width:11px;height:11px;border-radius:50%;background:#2563eb;position:absolute;left:-23px;top:7px}.date{font-weight:800;color:#1d4ed8}.muted{color:#64748b;font-size:13px}
+.school{border:1px solid #e5e7eb;border-radius:14px;padding:14px;margin:8px 0}.school b{font-size:16px}.school small{color:#64748b}
+input{width:100%;border:1px solid #dbe2ea;border-radius:12px;padding:13px;font-size:15px;margin-bottom:10px}
+.notice{background:#fff7ed;border-left:4px solid #f97316;padding:13px;border-radius:10px;font-size:13px}
+.check{display:flex;gap:9px;padding:10px 0;border-bottom:1px solid #eef0f3}.check input{width:auto;margin:4px 0}
+footer{text-align:center;color:#64748b;font-size:12px;padding:25px 10px}
+.hidden{display:none}
+a{color:#1d4ed8;font-weight:700}
+@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)}main{padding:28px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<div class="eyebrow">2027학년도 · 경상남도 고등학교 입학전형</div>
+<div class="title">📘 경남 고입 길잡이</div>
+<div class="sub">학생·학부모가 휴대폰으로 쉽게 확인하는 고입 안내</div>
+<nav>
+<button class="active" onclick="show('home',this)">🏠 한눈에</button>
+<button onclick="show('type',this)">🎓 전형</button>
+<button onclick="show('schedule',this)">📅 일정</button>
+<button onclick="show('gimhae',this)">📍 김해</button>
+<button onclick="show('check',this)">✅ 체크</button>
+</nav>
+</div></header>
+
+<main class="wrap">
+<section id="home">
+<div class="hero"><h2>우리 아이에게 맞는 고입,<br>먼저 큰 흐름부터 확인하세요.</h2><p>2027학년도 경남 고입 기본계획을 학생·학부모가 보기 쉽게 정리한 모바일 안내입니다.</p></div>
+<div class="grid">
+<div class="tile"><b>전기</b><span>특성화고·마이스터고·과학고 등</span></div>
+<div class="tile"><b>후기</b><span>외고·일반고 등</span></div>
+<div class="tile"><b>김해</b><span>평준화지역 교육감전형</span></div>
+<div class="tile"><b>200점</b><span>내신성적 총점</span></div>
+</div>
+<div class="card"><h2>⭐ 가장 중요한 날짜</h2>
+<div class="timeline">
+<div class="event"><div class="date">2026. 11. 18.</div><div>교과 내신 산출 기준일</div><div class="muted">3학년 2학기 2차고사 성적 반영</div></div>
+<div class="event"><div class="date">2026. 12. 10. ~ 12. 14.</div><div>평준화지역 일반고 원서접수</div></div>
+<div class="event"><div class="date">2027. 1. 8.</div><div>평준화지역 합격자 발표</div></div>
+<div class="event"><div class="date">2027. 1. 15.</div><div>평준화지역 배정학교 발표</div></div>
+</div></div>
+<div class="card"><h2>📌 먼저 알아둘 것</h2>
+<p>경남 고입은 <b>전기</b>와 <b>후기</b>로 나뉘며, 학교 유형에 따라 원서접수 시기와 전형방법이 다릅니다.</p>
+<div class="notice">※ 세부 일정과 전형방법은 변동될 수 있으므로 최종 지원 전 반드시 해당 학교 누리집의 모집요강을 확인하세요.</div>
+</div>
+</section>
+
+<section id="type" class="hidden">
+<div class="card"><h2>🎓 학교 유형별 전형</h2>
+<div class="school"><b>과학고</b><br><span class="tag">경남과고</span><span class="tag">창원과고</span><p class="muted">자기주도학습전형. 모집정원의 20% 이상 사회통합전형.</p><b>원서접수 2026.8.24. ~ 8.27.</b></div>
+<div class="school"><b>체육고</b><br><span class="tag">경남체육고</span><p class="muted">자기주도학습전형.</p><b>원서접수 2026.8.24. ~ 8.27.</b></div>
+<div class="school"><b>예술고</b><br><span class="tag">경남예술고</span><p class="muted">전형 세부사항은 학교 실시계획에 따름.</p><b>원서접수 2026.10.12. ~ 10.15.</b></div>
+<div class="school"><b>외국어고</b><br><span class="tag">김해외고</span><span class="tag">경남외고</span><p class="muted">자기주도학습전형.</p><b>원서접수 2026.12.10. ~ 12.14.</b></div>
+<div class="school"><b>특성화고</b><p class="muted">특정분야 인재양성 특성화고와 일반 특성화고 등이 있으며 특별전형과 일반전형 일정이 구분됩니다.</p><b>특별전형 2026.11.20. ~ 11.24.<br>일반전형 2026.11.27. ~ 12.1.</b></div>
+<div class="school"><b>평준화지역 일반고</b><p class="muted">교육감전형과 학교장전형으로 구분됩니다.</p><b>원서접수 2026.12.10. ~ 12.14.</b></div>
+</div>
+</section>
+
+<section id="schedule" class="hidden">
+<div class="card"><h2>📅 2027 고입 주요 일정</h2>
+<div class="timeline">
+<div class="event"><div class="date">7.13 ~ 7.17</div><div>마이스터고(공군항공과학고) 원서접수</div></div>
+<div class="event"><div class="date">8.24 ~ 8.27</div><div>과학고·체육고 원서접수</div></div>
+<div class="event"><div class="date">10.12 ~ 10.15</div><div>예술고 원서접수</div></div>
+<div class="event"><div class="date">10.19 ~ 10.22</div><div>마이스터고 3교 원서접수</div></div>
+<div class="event"><div class="date">11.20 ~ 11.24</div><div>특성화고 특별전형</div></div>
+<div class="event"><div class="date">11.27 ~ 12.1</div><div>특성화고 일반전형·각종학교 등</div></div>
+<div class="event"><div class="date">12.10 ~ 12.14</div><div>외고·평준화지역 일반고 원서접수</div></div>
+<div class="event"><div class="date">2027.1.8</div><div>평준화지역 합격자 발표</div></div>
+<div class="event"><div class="date">2027.1.15</div><div>평준화지역 배정학교 발표</div></div>
+</div></div>
+</section>
+
+<section id="gimhae" class="hidden">
+<div class="card"><h2>📍 김해 학생이라면</h2>
+<p>김해시는 <b>평준화지역</b>이며, 2027학년도 평준화지역 교육감전형에는 김해시 12교가 포함됩니다.</p>
+<h3>학교장전형 학교</h3>
+<div class="school">김해대청고등학교</div><div class="school">김해삼문고등학교</div><div class="school">김해수남고등학교</div><div class="school">김해율하고등학교</div><div class="school">장유고등학교</div>
+<h3>김해의 주요 전기·특목고</h3>
+<div class="school">김해생명과학고등학교</div><div class="school">김해한일여자고등학교</div><div class="school">김해건설공업고등학교 <small>※ 전국 모집</small></div><div class="school">김해금곡고등학교 <small>※ 체험위주 각종학교</small></div><div class="school">김해외국어고등학교</div>
+<div class="notice">김해외고는 후기 외국어고로 2026.12.10.~12.14. 원서접수, 2026.12.24. 합격자 발표 일정입니다.</div>
+</div>
+</section>
+
+<section id="check" class="hidden">
+<div class="card"><h2>✅ 지원 전 체크리스트</h2>
+<label class="check"><input type="checkbox"> 희망 학교의 학교 유형을 확인했나요?</label>
+<label class="check"><input type="checkbox"> 전기·후기 구분을 확인했나요?</label>
+<label class="check"><input type="checkbox"> 원서접수 기간을 달력에 표시했나요?</label>
+<label class="check"><input type="checkbox"> 학교별 모집요강을 확인했나요?</label>
+<label class="check"><input type="checkbox"> 내신성적 반영 기준을 확인했나요?</label>
+<label class="check"><input type="checkbox"> 지원 자격과 제출서류를 확인했나요?</label>
+<label class="check"><input type="checkbox"> 최종 지원 전 학교 홈페이지를 다시 확인했나요?</label>
+<h3>⚠️ 꼭 기억하세요</h3>
+<div class="notice">기본계획의 일정 및 학교 구분은 향후 일부 조정될 수 있습니다. 학교별 전형 세부 일정은 반드시 해당 학교 누리집에서 확인해야 합니다.</div>
+</div>
+<div class="card"><h2>📄 원문</h2><p>이 웹앱의 기준 자료는 「2027학년도 경상남도 고등학교 입학전형 기본계획(기타전형 포함)」입니다.</p><a href="2027학년도 경상남도 고등학교 입학전형 기본계획(기타전형 포함).pdf" target="_blank">원문 PDF 열기 →</a></div>
+</section>
+<footer>2027 경남 고입 길잡이 · 학생·학부모 안내용<br>최종 지원 전 반드시 해당 학교 모집요강 확인</footer>
+</main>
+<script>
+function show(id,btn){document.querySelectorAll('main section').forEach(x=>x.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');document.querySelectorAll('nav button').forEach(x=>x.classList.remove('active'));btn.classList.add('active');window.scrollTo(0,0)}
+</script>
+</body></html>
